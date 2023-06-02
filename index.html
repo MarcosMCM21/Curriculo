@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+
+    <!-- CHAMA A FORMATAÇÃO DA PÁGINA -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- CHAMA A FORMATAÇÃO DO MENU -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" >
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo" >HOME</a>
+            <a href="#" data-activates="menu-mobíle" class="button-collapse">
+                <i class="large material-icons"></i>
+            </a>
+
+            <!-- PÁGINA WEB PARA COMPUTADOR -->
+            <ul class="right hide-on-med-and-down">
+                <li><a href="pages/portfolio.html" class="blue-text text-darken-1">PORTFÓLIO</a></li>
+                <li><a href="pages/objetivo.html">OBJETIVOS</a></li>
+                <li><a href="pages/carreira.html">CARREIRA</a></li>
+                <li><a href="pages/sobre.html" >SOBRE</a></li>
+            </ul>
+
+            <!-- PÁGINA WEB PARA DISPOSITIVOS MÓVEIS -->
+            <ul class="side-nav" id="menu-mobile">
+                <li><a href="pages/portfolio.html">PORTFÓLIO</a></li>
+                <li><a href="pages/objetivo.html">OBJETIVOS</a></li>
+                <li><a href="pages/carreira.html">CARREIRA</a></li>
+                <li><a href="pages/sobre.html">SOBRE</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- TÍTULO -->
+    <H1>MARCOS CORREA DE MELO</H1>
+
+    <!-- SUBTÍTULO -->
+    <h3>21 ANOS</h3>
+
+    <!-- CONTEÚDO -->
+    <h4>Técnico em Automação Industrial | SENAI</h4>
+    <h4>Técnico em Desenvolvimento de Sistemas (Cursando, previsão em <strong>2024</strong>) | SENAI</h4>
+
+    <!-- BOTÃO PARA MOSTRAR PORTFÓLIO -->
+    <label><a rel="stylesheet" href="pages/portfolio.html">PORTFÓLIO</label>
+    
+</body>
+
+<!-- CHAMA O JAVASCRIPT DO MENU -->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+<script>
+    $(function (){
+        $(".button-collapse").sideNav();
+    });
+</script>
+
+<!-- CHAMA O JAVASCRIPT DA PÁGINA-->
+<link rel="stylesheet" href="">
+</html>
